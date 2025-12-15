@@ -1,0 +1,99 @@
+
+=== PLACEHOLDER YANG DITEMUKAN DI TEMPLATE SKTM.docx ===
+
+Ô£à Ditemukan 27 placeholder:
+
+1. {28A0092B-C50C-407E-A947-70E740481C1C}
+2. {909E8E84-426E-40DD-AFC4-6F175D3DCCD1}
+3. {agama}
+4. {alamat}
+5. {bulan_romawi}
+6. {desil}
+7. {jabatan}
+8. {kecamatan}
+9. {kelamin_pemohon}
+10. {kelurahan}
+11. {kota_kabupaten}
+12. {nama_pejabat}
+13. {nama_pemohon}
+14. {negara}
+15. {nik_pemohon}
+16. {nip_pejabat}
+17. {nomor_surat}
+18. {pekerjaan}
+19. {pengantar_rt}
+20. {perkawinan}
+21. {peruntukan}
+22. {rt}
+23. {rw}
+24. {tahun_surat}
+25. {tanggal_lahir}
+26. {tanggal_surat}
+27. {tempat_lahir}
+
+=== FIELD YANG PERLU ADA DI FORM ===
+
+Tambahkan field berikut ke formData jika belum ada:
+
+  28A0092B-C50C-407E-A947-70E740481C1C: '',
+  909E8E84-426E-40DD-AFC4-6F175D3DCCD1: '',
+  agama: '',
+  alamat: '',
+  bulan_romawi: '',
+  desil: '',
+  jabatan: '',
+  kecamatan: '',
+  kelamin_pemohon: '',
+  kelurahan: '',
+  kota_kabupaten: '',
+  nama_pejabat: '',
+  nama_pemohon: '',
+  negara: '',
+  nik_pemohon: '',
+  nip_pejabat: '',
+  nomor_surat: '',
+  pekerjaan: '',
+  pengantar_rt: '',
+  perkawinan: '',
+  peruntukan: '',
+  rt: '',
+  rw: '',
+  tahun_surat: '',
+  tanggal_lahir: '',
+  tanggal_surat: '',
+  tempat_lahir: '',
+
+=== TEMPLATE DATA UNTUK API ===
+
+Tambahkan ke templateData di API route:
+
+  28A0092B-C50C-407E-A947-70E740481C1C: formData.28A0092B-C50C-407E-A947-70E740481C1C || '',
+  909E8E84-426E-40DD-AFC4-6F175D3DCCD1: formData.909E8E84-426E-40DD-AFC4-6F175D3DCCD1 || '',
+  agama: formData.agama || '',
+  alamat: formData.alamat || '',
+  bulan_romawi: formData.bulan_romawi || '',
+  desil: formData.desil || '',
+  jabatan: formData.jabatan || '',
+  kecamatan: formData.kecamatan || '',
+  kelamin_pemohon: formData.kelamin_pemohon || '',
+  kelurahan: formData.kelurahan || '',
+  kota_kabupaten: formData.kota_kabupaten || '',
+  nama_pejabat: formData.nama_pejabat || '',
+  nama_pemohon: formData.nama_pemohon || '',
+  negara: formData.negara || '',
+  nik_pemohon: formData.nik_pemohon || '',
+  nip_pejabat: formData.nip_pejabat || '',
+  nomor_surat: formData.nomor_surat || '',
+  pekerjaan: formData.pekerjaan || '',
+  pengantar_rt: formData.pengantar_rt || '',
+  perkawinan: formData.perkawinan || '',
+  peruntukan: formData.peruntukan || '',
+  rt: formData.rt || '',
+  rw: formData.rw || '',
+  tahun_surat: formData.tahun_surat || '',
+  tanggal_lahir: formData.tanggal_lahir || '',
+  tanggal_surat: formData.tanggal_surat || '',
+  tempat_lahir: formData.tempat_lahir || '',
+
+=== SELESAI ===
+
